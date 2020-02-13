@@ -33,6 +33,11 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'rspec-rails', '~> 3.8'
+  gem 'factory_bot_rails', '~> 5.1.0'
+  gem 'webdrivers'
+  gem 'selenium-webdriver'
+  gem 'rack_session_access'
 end
 
 group :development do
@@ -48,3 +53,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
+
+gem 'capybara'
